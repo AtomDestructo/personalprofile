@@ -1,17 +1,13 @@
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import Blurb from './Components/Blurb';
+import {Blurb} from './Components/Blurb';
 import './Styles/App.css';
 import './Styles/Navbar.css';
 import './Styles/w3.css';
-import './Styles/index.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+https://brittanychiang.com/?ref=hackernoon.com
       <Blurb/>
-      <Footer/>
     </div>
   );
 }
