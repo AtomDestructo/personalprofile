@@ -6,7 +6,6 @@ import './Styles/w3.css';
 function App() {
   return (
     <div className="App">
-https://brittanychiang.com/?ref=hackernoon.com
       <Blurb/>
     </div>
   );

@@ -7,7 +7,7 @@ export class Blurb extends Component {
     render() {
     return (
         <>
-        <div className="container-fluid">
+        <div className="container-fluid ">
         <section class="sticky_title_bar">
             <div class="centered2">
             <div class="centered2"><img src="/media/logocolorbackgroung.png" width={"200px"} alt="logocolor" class="m-5"/></div>
@@ -31,12 +31,12 @@ export class Blurb extends Component {
             </div>
         </section>
         
-        <div class="welcome">
+        <div class="welcome ">
         <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
         Welcome to my interactive profile. Please poke around
         </div>
         <hr class="c"></hr>
-        <section class="section_center">
+        <section class="section_center ">
         <div class="centered2 ts1" id="ABOUT">About Me</div>
         <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
         <hr/>
@@ -68,23 +68,51 @@ export class Blurb extends Component {
             <div class="centered2 ts1" id="ABILITIES">Abilities</div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
+            <div class="ts3">
+                No experience:  <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~
+                Novice: <img src="/Media/twostars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~  
+                Intermediate: <img src="/Media/threestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~  
+                Experienced: <img src="/Media/fourstars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/>
+                </div>
                 <div class="ts2">Designer</div>
                 <hr class="a"></hr>
-                    <div class="tab ts3">Photoshop, Bootstrap, InkScape</div>
-                    <div class="tab ts3">CSS,</div>
+                    <div class="tab ts3">Photoshop <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Bootstrap <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">InkScape  <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">CSS <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
                 <div class="ts2">Sofware i Have Used</div>    
-                    <div class="tab ts3">github, Crystal Reports, InkScape</div>
-                    <div class="tab ts3">Visual Studio/ Code, .NET, IntelliJ/JetBrains</div>
+                <hr class="a"></hr>
+                    <div class="tab ts3">github <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Crystal Reports <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Visual Studio <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Visual Studio Code <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">.NET <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">IntelliJ/JetBrains <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+
                 <div class="ts2">As a Coder</div> 
-                    <div class="tab ts3">Java, JavaScript, HTML</div>
-                    <div class="tab ts3">ReactJS, Python, Regex</div>
-                    <div class="tab ts3">C#, </div>
+                <hr class="a"></hr>
+                <div class="tab ts3">Java <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">JavaScript <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">HTML<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">ReactJS<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Python <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Regex<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">C# <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+
                 <div class="ts2">NetWorking Stuff</div>   
-                    <div class="tab ts3">SQL Server, RESTful, Relational Database Design</div>  
-                    <div class="tab ts3">MS Azure</div>  
+                <hr class="a"></hr>
+                    <div class="tab ts3">SQL Server<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">RESTful <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Relational Database Design<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">MS Azure <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+
                 <div class="ts2">Operating Systems i Know</div>  
-                    <div class="tab ts3">MS Windows, Linux, MacOS</div>  
-                    <div class="tab ts3">iOS, Android</div>                          
+                <hr class="a"></hr>
+                    <div class="tab ts3">MS Windows<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Linux <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">MacOS<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">iOS <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Android <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>                       
         </section>
 
         <section class="section_center">
@@ -135,11 +163,11 @@ export class Blurb extends Component {
                 </div>
                 <br/>
                 <div>
-                <div class="ts3 tab">• Designed and implemented a mobile application from inception toproduction (focus on product characteristics, information transference,and operational efficiency)</div>      
-                <div class="ts3 tab">• Collaborated with a team of 45 team members to determine theappropriate use of existing and new technology systems.</div>   
-                <div class="ts3 tab">• Configuring, installing, and supporting desktop computers, laptopcomputers, mobile devices, printers, monitors, and other peripherals.</div>   
+                <div class="ts3 tab">• Designed and implemented a mobile application from inception to production (focus on product characteristics, information transference,and operational efficiency)</div>      
+                <div class="ts3 tab">• Collaborated with a team of 45 team members to determine the appropriate use of existing and new technology systems.</div>   
+                <div class="ts3 tab">• Configuring, installing, and supporting desktop computers, laptop computers, mobile devices, printers, monitors, and other peripherals.</div>   
                 <div class="ts3 tab">• Diagnosing hardware and software failures.</div>   
-                <div class="ts3 tab">• Tracking and recording the assignment of IT assets in an inventorydatabase. Providing off-site home support when required.  </div>               
+                <div class="ts3 tab">• Tracking and recording the assignment of IT assets in an inventory database. Providing off-site home support when required.  </div>               
                 </div>
         </section>
         </div>

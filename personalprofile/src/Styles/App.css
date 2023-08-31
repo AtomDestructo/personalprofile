@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 :root{
   --section_height: 40vh;
-  --bg1: url(../Media/tttwinkle2.svg);
-  --bg2: url(../Media/ContactMe2.svg);
+  --bg2: url(../Media/tttwinkle2.png);
 
 }
 *{
@@ -21,9 +20,10 @@ a:hover{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .link-hover:hover{color: brown;   cursor: pointer;}
-hr.a{width: 25%; margin-left:37.5% !important; margin-right:37.5% !important;}
-hr.b{width: 25%; }
-hr.c{width: 55%; margin: 1em;}
+hr{border-top: 1px solid rgb(0, 0, 0);}
+hr.a{width: 25%; margin-left:37.5% !important; margin-right:37.5% !important;border-top: 1px solid rgb(0, 0, 0);}
+hr.b{width: 25%; border-top: 1px solid rgb(0, 0, 0);}
+hr.c{width: 55%; margin: 1em;border-top: 1px solid rgb(0, 0, 0);}
 h1{ font-family: 'Lustria', serif; font-weight: 400;}
 h2{ font-family: 'Lustria', serif;}
 h3{ font-family: 'Lustria', serif;}
@@ -79,13 +79,13 @@ body{
 .sticky_title_bar:hover{
   border-top: 6px solid rgb(93, 81, 139) ;
   border-right: 6px solid rgb(93, 81, 139) ;
-  background-color: rgb(8, 138, 138);
+  background-color: rgb(209, 202, 236);
   transition-timing-function: ease-in-out;
   transition: 800ms;
   color: black;
   font-weight: bolder;
-  background-image: var(--bg1);
-  background-size: 60%;
+  background-image: var(--bg2);
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 15%;
@@ -93,7 +93,14 @@ body{
   -moz-border-radius: 15%;
   font-style: oblique 45deg;
 }
-.sticky_title_bar:hover .ts3{ font-size: .8em; font-weight: bolder; }
+
+.sticky_title_bar:hover .ts3{ 
+  font-size: .8em; 
+  font-weight: bolder; 
+  font-style: oblique 45deg; 
+  color:rgb(30, 27, 41);
+}
+
 .sticky_title_bar:not(:hover){
   font-size: calc(8px + 2vmin);
   color: rgb(250, 185, 155);
@@ -102,7 +109,7 @@ body{
   transition: 800ms;
   font-weight: bolder;
 }
-
+/*============================section===========================*/
 .section_center {
   min-height: var(--section_height);
   display: flexbox;
@@ -122,17 +129,17 @@ body{
   opacity: .25;
   cursor: text;
 }
-.section_center:hover .ts1{ color:#ffffff; font-style: oblique 45deg; font-size: 1.75em; text-shadow: 2px 2px 5px red;}
-.section_center:hover b{ color:#ffffff; }
-.section_center:hover c{ color:#ffffff;}
-.section_center:hover .ts2{ color:#ffffff; margin: 2px;text-shadow: 2px 2px 5px rgb(255, 0, 212);}
-.section_center:hover .ts4{ color:#ffffff; margin: 2px;text-shadow: 2px 2px 5px rgb(0, 255, 98);}
+.section_center:hover .ts1{ color:#0f0f0f; font-style: oblique 45deg; font-size: 1.75em; text-shadow: 2px 2px 5px red;}
+.section_center:hover b{ color:#0f0f0f; }
+.section_center:hover c{ color:#0f0f0f;}
+.section_center:hover .ts2{ color:#0f0f0f; margin: 2px;text-shadow: 2px 2px 5px rgb(255, 0, 212);}
+.section_center:hover .ts4{ color:#0f0f0f; margin: 2px;text-shadow: 2px 2px 5px rgb(0, 255, 98);}
 .section_center:hover .bar{ visibility: visible; height: 0;}
 .section_center .bar{ visibility: hidden;}
 .section_center:hover{
-  background: rgb(36, 32, 54);
-  color: rgb(255, 255, 255);
-  border: 4px solid rgb(93, 81, 139) ;
+  background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(252, 252, 252) 50%, rgb(252, 249, 233) 100%);
+  color: rgb(39, 38, 53);
+  border: 4px solid rgb(252, 252, 252) ;
   line-height: 1.5;
   transition-duration: .5s;
   cursor: text;
@@ -141,7 +148,12 @@ body{
   -webkit-border-radius: 13px 63px 13px 64px;
   -moz-border-radius: 13px 63px 13px 64px;
 }
+.bg3{
+  background-image: var(--bg3);
+  background-size: cover;
+  background-size: 100%;
 
+}
 /*============================sections===========================*/
 .section_center:not(:hover){
   transition-duration: .75s;
@@ -163,11 +175,13 @@ body{
   -moz-border-radius: 4px 4px;
   font-weight: bolder;
   font-size: 4vw;
-  background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+  background: linear-gradient(to right, #919245, #363688, #f7797d);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: text;
+
+
 }
 @media screen and (max-width: 600px){
   .sticky_title_bar{
@@ -177,9 +191,16 @@ body{
     position: none;
   }
 }
+@media screen and (min-width: 300px){
+  .sticky_title_bar{
+    min-height: auto;
+    max-width: auto;
+  }
+}
 @media screen and (max-width: 600px){
   body{
     background-image: none;
+    background: rgb(36, 32, 54);
   }
 }
 img{
@@ -188,4 +209,7 @@ img{
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
+}
+.star{
+
 }
