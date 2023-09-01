@@ -33,7 +33,7 @@ export class Blurb extends Component {
         
         <div class="welcome ">
         <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-        Welcome to my interactive profile. Please poke around
+        Welcome to my developer profile. Please poke around
         </div>
         <hr class="c"></hr>
         <section class="section_center ">
