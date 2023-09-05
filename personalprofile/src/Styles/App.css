@@ -93,7 +93,9 @@ body{
   -moz-border-radius: 15%;
   font-style: oblique 45deg;
 }
-
+.sticky_title_bar:hover .ts1{ 
+  text-shadow: 2px 2px 5px red;
+}
 .sticky_title_bar:hover .ts3{ 
   font-size: .8em; 
   font-weight: bolder; 
@@ -132,8 +134,8 @@ body{
 .section_center:hover .ts1{ color:#0f0f0f; font-style: oblique 45deg; font-size: 1.75em; text-shadow: 2px 2px 5px red;}
 .section_center:hover b{ color:#0f0f0f; }
 .section_center:hover c{ color:#0f0f0f;}
-.section_center:hover .ts2{ color:#0f0f0f; margin: 2px;text-shadow: 2px 2px 5px rgb(255, 0, 212);}
-.section_center:hover .ts4{ color:#0f0f0f; margin: 2px;text-shadow: 2px 2px 5px rgb(0, 255, 98);}
+.section_center:hover .ts2{ color:#0f0f0f; margin: 2px; font-weight: bold;}
+.section_center:hover .ts4{ color:#0f0f0f; margin: 2px; font-weight: bold;}
 .section_center:hover .bar{ visibility: visible; height: 0;}
 .section_center .bar{ visibility: hidden;}
 .section_center:hover{

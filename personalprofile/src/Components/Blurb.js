@@ -24,7 +24,7 @@ export class Blurb extends Component {
                 <div class="">
                     <div class="ts3 ">Evan Doucett</div>
                         <div class="ts3">Calgary, Alberta </div>
-                        <div class="link-hover ts3" title="Message Me!!"> Email: edoucett@hotmail.com</div>  
+                        <div class="link-hover ts3" title="Message Me!!"> Email: edoucett@hotmail.com / evandoucett@theprogramforge.com</div>  
                         <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/iconlinkedin.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="linkedin"/>  </a>
                         <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="linkedin"/>  </a>
                 </div>
@@ -69,50 +69,49 @@ export class Blurb extends Component {
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts3">
-                No experience:  <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~
-                Novice: <img src="/Media/twostars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~  
-                Intermediate: <img src="/Media/threestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> ~  
-                Experienced: <img src="/Media/fourstars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/>
+                No experience:  <img src="/Media/onestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~
+                Novice: <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~  
+                Intermediate: <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~  
+                Experienced: <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/>
                 </div>
                 <div class="ts2">Designer</div>
                 <hr class="a"></hr>
-                    <div class="tab ts3">Photoshop <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Bootstrap <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">InkScape  <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">CSS <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Photoshop <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Bootstrap <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">InkScape  <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">CSS <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                 <div class="ts2">Sofware i Have Used</div>    
                 <hr class="a"></hr>
-                    <div class="tab ts3">github <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Crystal Reports <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Visual Studio <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Visual Studio Code <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">.NET <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">IntelliJ/JetBrains <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">github <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Crystal Reports <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Visual Studio <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Visual Studio Code <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">.NET <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">IntelliJ/JetBrains <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
                 <div class="ts2">As a Coder</div> 
                 <hr class="a"></hr>
-                <div class="tab ts3">Java <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">JavaScript <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">HTML<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">ReactJS<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Python <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Regex<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">C# <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                <div class="tab ts3">Java <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">JavaScript <img src="/Media/onestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">HTML<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">ReactJS<img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Python <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Regex<img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">C# <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
                 <div class="ts2">NetWorking Stuff</div>   
                 <hr class="a"></hr>
-                    <div class="tab ts3">SQL Server<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">RESTful <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Relational Database Design<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">MS Azure <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">SQL Server<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">RESTful <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Relational Database Design<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">MS Azure <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
                 <div class="ts2">Operating Systems i Know</div>  
                 <hr class="a"></hr>
-                    <div class="tab ts3">MS Windows<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Linux <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">MacOS<img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">iOS <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Android <img src="/Media/onestars.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>                       
+                    <div class="tab ts3">MS Windows<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Linux <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">iOS <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Android <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>                       
         </section>
 
         <section class="section_center">
@@ -120,11 +119,13 @@ export class Blurb extends Component {
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Web Application Developer</div>
-            <div class="ts4">Morrison Homes</div>
+            <div class="ts4 centered2">Morrison Homes</div>
                 <div class="ts3 tab">As a web application developer, I created, implemented, 
                     and developed a functional interface to integrate with an aging IT landscape. 
                     These functions included full CRUD operations.
-                </div>
+                </div> 
+                <br/>
+                <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app">View the Source Code Here!!</a>   </div>   
                 <br/>
                 <div >
                     <div class="ts3 tab">• Planning site designs, functionality, and navigation along with datacapture points.</div>
@@ -137,11 +138,13 @@ export class Blurb extends Component {
                 <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Web Developer/Designer</div>
-            <div class="ts4">Land Works Resource Management Inc.</div>
+            <div class="ts4 centered2">Land Works Resource Management Inc.</div>
                 <div class="ts3 tab"> As a web developer it was my responsibility to design, coding, 
                 and modifying websites, including all aspects of the website, such as layout,functionality, and user experience. I was also responsible for creatingaesthetically pleasing website designs with functional, 
                 user-friendlydesign and clear navigation for optimal usability.
                 </div>
+                <br/>
+                <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app">View the Website Here!!</a>   </div>   
                 <br/>
                 <div>
                     <div class="ts3 tab">• Understanding UI, cross-browser compatibility, and general webfunctionality and standards.</div>
@@ -156,7 +159,7 @@ export class Blurb extends Component {
                 <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Business Analytics and Process Design Manager</div>
-            <div class="ts4">Caneda Transport Inc.</div>
+            <div class="ts4 centered2">Caneda Transport Inc.</div>
                 <div class="ts3 tab">As a Business Process Solutions Manager, I was responsible for themanagement of department milestones
                 /goals, analyzing existingoperations, implementing effective systems, strategies, 
                 and processes to improve organizational performance and profitability.
