@@ -13,13 +13,14 @@ export class Blurb extends Component {
             <div class="centered2"><img src="/media/logocolorbackgroung.png" width={"200px"} alt="logocolor" class="m-5"/></div>
                 <div class="ts1">Evan Doucett</div> 
                 <div class="ts2">Web Developer Profile</div> 
-                <div class="ts3">Designer, Frontend / Web Developer and Coder</div> 
+                <div class="ts3">Designer, Frontend Creator / Web Developer / Coder and Consultant</div> 
                 <div class="ts3">I design and code beautifully simple things, and I love what I do.</div> 
                 <hr/>
                     <div class=""><a class="link ts4" href="#ABOUT">About Me</a></div>
                     <div><a class="link ts4" href="#EDUCATION">Education</a></div>
                     <div><a class="link ts4" href="#ABILITIES">Abilities</a></div>
                     <div><a class="link ts4" href="#HOBBIES">Hobbies</a></div>
+                    <div><a class="link ts4" href="#PERSONALITY">Personality</a></div>
                     <div><a class="link ts4" href="#RECENT">Recent Work</a></div>
                 <hr/>
                 <div class="">
@@ -27,7 +28,7 @@ export class Blurb extends Component {
                         <div class="ts3">Calgary, Alberta </div>
                         <div class="link-hover ts3" title="Message Me!!"> Email: edoucett@hotmail.com / evandoucett@theprogramforge.com</div>  
                         <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/iconlinkedin.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="linkedin"/>  </a>
-                        <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="linkedin"/>  </a>
+                        <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/>  </a>
                 </div>
             </div>
         </section>
@@ -75,24 +76,23 @@ export class Blurb extends Component {
                 Intermediate: <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~  
                 Experienced: <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/>
                 </div>
-                <div class="ts2">Designer</div>
-                <hr class="a"></hr>
+
+                <div class="ts2">Working as a Designer</div>
                     <div class="tab ts3">Photoshop <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Lightroom <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Bootstrap <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">InkScape  <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">CSS <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
-                <div class="ts2">Sofware i Have Used</div>    
-                <hr class="a"></hr>
+
+                <div class="ts2">Sofware i Use</div>    
                     <div class="tab ts3">github <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Crystal Reports <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">SAP Crystal Reports <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Visual Studio <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Visual Studio Code <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">.NET <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">IntelliJ/JetBrains <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
                 <div class="ts2">As a Coder</div> 
-                <hr class="a"></hr>
                 <div class="tab ts3">Java <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">JavaScript <img src="/Media/onestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">HTML<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
@@ -101,35 +101,65 @@ export class Blurb extends Component {
                     <div class="tab ts3">Regex<img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">C# <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
-                <div class="ts2">NetWorking Stuff</div>   
-                <hr class="a"></hr>
+                <div class="ts2">NetWorking Stuff</div> 
                     <div class="tab ts3">SQL Server<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">RESTful <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Relational Database Design<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">MS Azure <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
 
                 <div class="ts2">Operating Systems i Know</div>  
-                <hr class="a"></hr>
                     <div class="tab ts3">MS Windows<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Linux <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">iOS <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">Android <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>                       
+                    <div class="tab ts3">Android <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>    
+
+                <div class="ts2">As an Accountant</div>  
+                    <div class="tab ts3">IFRS<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Finacial Analysis <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">GAAP <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Inventory Management <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div> 
+                    <div class="tab ts3">Process Improvement <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div> 
+                    <div class="tab ts3">Performance Management <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>                     
+                    <div class="tab ts3">Employee management <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Contract Negotiation <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Full Cycle Accounting <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">CORS Training <img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
         </section>
 
         <section class="section_center">
             <div class="centered2 ts1" id="HOBBIES">Hobbies</div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
-            <div class="ts2 centered2">Photography and Editing</div>
-            <div class="ts3 tab">• Developed a keen eye for composition and color through regular practice, honing my attention to detail and creative problem-solving skills.</div>
-            <div class="ts2 centered2">Digital Art, Painting and Pencils</div>
-            <div class="ts3 tab">• Imagination and inventiveness are a big part of critical thinking.</div>
-            <div class="ts2 centered2">Wellness practices</div>
-            <div class="ts3 tab">• Weightlifting</div>
+                <div class="ts3 centered2">Photography and Editing</div>
+                <div class="ts3 centered2">Digital Editing</div>
+                <div class="ts3 centered2">Graphic Design</div>
+                <div class="ts3 centered2">Painting</div>
+                <div class="ts3 centered2">Drawing</div>
+                <div class="ts3 centered2">Wellness practices</div>
+                <div class="ts3 centered2">Reading</div>
+            <div class="centered2 ts1" id="PERSONALITY">Key Personality Traits</div>
+            <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+            <hr/>
+            <div class="centered2">
+                <div class="ts3">Honest</div>
+                <div class="ts3">Imagination and inventive</div>
+                <div class="ts3">Teamwork Player</div>
+                <div class="ts3">Critical thinker</div>
+                <div class="ts3">Great Interpersonal Skills</div>
+                <div class="ts3">Open to Change</div>
+                <div class="ts3">Openminded</div>
+                <div class="ts3">Strong work ethic</div>
+                <div class="ts3">Learning/adaptability</div>
+                <div class="ts3">Leadership</div>
+                <div class="ts3">Self-manager</div>
+                <div class="ts3">Highly Organized</div>
+            </div>
         </section>
 
         <section class="section_center">
             <div class="centered2 ts1" id="RECENT">My Recent Work</div>
+                <div class="centered2"><a class="text-danger" href="https://github.com/AtomDestructo/personalprofile/tree/main/personalprofile"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View this profile website here</a>   </div>   
+                <br/>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Web Application Developer</div>
@@ -139,7 +169,7 @@ export class Blurb extends Component {
                     These functions included full CRUD operations.
                 </div> 
                 <br/>
-                <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app">View the Source Code Here!!</a>   </div>   
+                <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View the Source Code Here!!</a>   </div>   
                 <br/>
                 <div >
                     <div class="ts3 tab">• Planning site designs, functionality, and navigation along with datacapture points.</div>
@@ -160,8 +190,10 @@ export class Blurb extends Component {
                 </div>
                 <br/>
                 <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app">View the Website Here!!</a>   </div>   
+                <div class="centered2"><a class="text-danger" href="https://github.com/AtomDestructo/SandPiperSolutionsIncWebsite"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View the Source Code Here!!</a>   </div>   
                 <br/>
                 <div>
+                    <div class="ts3 tab">• Branding and consulting.</div>
                     <div class="ts3 tab">• Understanding UI, cross-browser compatibility, and general webfunctionality and standards.</div>
                     <div class="ts3 tab">• Utilizing web applications and programming languages</div>
                     <div class="ts3 tab">• Meeting with clients or management to discuss the design plan andneeds of the website.</div>
@@ -204,8 +236,8 @@ export class Blurb extends Component {
                 </div>
         </section>
         </div>
-        </>
-    )
 
-}
+        </>
+        )
+    }
 }
