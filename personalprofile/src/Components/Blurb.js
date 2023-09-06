@@ -19,6 +19,7 @@ export class Blurb extends Component {
                     <div class=""><a class="link ts4" href="#ABOUT">About Me</a></div>
                     <div><a class="link ts4" href="#EDUCATION">Education</a></div>
                     <div><a class="link ts4" href="#ABILITIES">Abilities</a></div>
+                    <div><a class="link ts4" href="#HOBBIES">Hobbies</a></div>
                     <div><a class="link ts4" href="#RECENT">Recent Work</a></div>
                 <hr/>
                 <div class="">
@@ -77,6 +78,7 @@ export class Blurb extends Component {
                 <div class="ts2">Designer</div>
                 <hr class="a"></hr>
                     <div class="tab ts3">Photoshop <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">Lightroom <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Bootstrap <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">InkScape  <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">CSS <img src="/Media/threestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
@@ -115,6 +117,18 @@ export class Blurb extends Component {
         </section>
 
         <section class="section_center">
+            <div class="centered2 ts1" id="HOBBIES">Hobbies</div>
+            <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+            <hr/>
+            <div class="ts2 centered2">Photography and Editing</div>
+            <div class="ts3 tab">• Developed a keen eye for composition and color through regular practice, honing my attention to detail and creative problem-solving skills.</div>
+            <div class="ts2 centered2">Digital Art, Painting and Pencils</div>
+            <div class="ts3 tab">• Imagination and inventiveness are a big part of critical thinking.</div>
+            <div class="ts2 centered2">Wellness practices</div>
+            <div class="ts3 tab">• Weightlifting</div>
+        </section>
+
+        <section class="section_center">
             <div class="centered2 ts1" id="RECENT">My Recent Work</div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
@@ -135,7 +149,8 @@ export class Blurb extends Component {
                     <div class="ts3 tab">• Using an MVC profile with Visual Studio.</div>
                     <div class="ts3 tab">• Databases create, read, update, delete (CRUD) function integration.</div>              
                 </div>
-                <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+
+            <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Web Developer/Designer</div>
             <div class="ts4 centered2">Land Works Resource Management Inc.</div>
@@ -156,7 +171,8 @@ export class Blurb extends Component {
                     <div class="ts3 tab">• Creating and testing applications for the website.</div>
                     <div class="ts3 tab">• Using ReactJS, Visual Studio Code.</div>        
                 </div>
-                <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+
+            <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts2 centered2">Business Analytics and Process Design Manager</div>
             <div class="ts4 centered2">Caneda Transport Inc.</div>
@@ -171,6 +187,20 @@ export class Blurb extends Component {
                 <div class="ts3 tab">• Configuring, installing, and supporting desktop computers, laptop computers, mobile devices, printers, monitors, and other peripherals.</div>   
                 <div class="ts3 tab">• Diagnosing hardware and software failures.</div>   
                 <div class="ts3 tab">• Tracking and recording the assignment of IT assets in an inventory database. Providing off-site home support when required.  </div>               
+                </div>
+
+            <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+            <hr/>
+            <div class="ts2 centered2">Controller</div>
+            <div class="ts4 centered2">Caneda Transport Inc.</div>
+                <div class="ts3 tab">Oversee activities related to payroll, tax, account payables/ receivables, and customer billing. 
+                    Ensure district offices meet with sales to focus on business growth by estimating weekly sales and billing projections.
+                    I was also responsible for forecasting weekly costs and determining areas for immediate cost improvement on a weekly basis.
+                </div>
+                <br/>
+                <div>
+                <div class="ts3 tab">• Solid participation and execution of successful audits and related accounting functions.</div>      
+                <div class="ts3 tab">• Effective training, supervision, deployment, and development of accounting team.</div>                 
                 </div>
         </section>
         </div>

@@ -101,6 +101,7 @@ body{
   font-weight: bolder; 
   font-style: oblique 45deg; 
   color:rgb(30, 27, 41);
+  font-style: oblique 45deg;
 }
 
 .sticky_title_bar:not(:hover){
@@ -177,7 +178,7 @@ body{
   -moz-border-radius: 4px 4px;
   font-weight: bolder;
   font-size: 4vw;
-  background: linear-gradient(to right, #919245, #363688, #f7797d);
+  background: linear-gradient(to right, #fbff00, #ffae00, #ff0008);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
