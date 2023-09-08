@@ -7,14 +7,15 @@ export class Blurb extends Component {
     render() {
     return (
         <>
-        <div className="container-fluid ">
+        <div class="">
+        <div className="container-fluid">
         <section class="sticky_title_bar">
             <div class="centered2">
             <div class="centered2"><img src="/media/logocolorbackgroung.png" width={"200px"} alt="logocolor" class="m-5"/></div>
                 <div class="ts1">Evan Doucett</div> 
                 <div class="ts2">Web Developer Profile</div> 
                 <div class="ts3">Designer, Frontend Creator / Web Developer / Coder and Consultant</div> 
-                <div class="ts3">I design and code beautifully simple things, and I love what I do.</div> 
+                <div class="ts3"><b>Forge</b> to perfection, <b>Amazing</b> software created for you, one keystroke blow at a time.</div> 
                 <hr/>
                     <div class=""><a class="link ts4" href="#ABOUT">About Me</a></div>
                     <div><a class="link ts4" href="#EDUCATION">Education</a></div>
@@ -31,8 +32,9 @@ export class Blurb extends Component {
                         <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/>  </a>
                 </div>
             </div>
+
         </section>
-        
+        <div class="fireImage ">
         <div class="welcome ">
         <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
         Welcome to my developer profile. Please poke around
@@ -94,7 +96,7 @@ export class Blurb extends Component {
 
                 <div class="ts2">As a Coder</div> 
                 <div class="tab ts3">Java <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
-                    <div class="tab ts3">JavaScript <img src="/Media/onestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
+                    <div class="tab ts3">JavaScript <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">HTML<img src="/Media/fourstars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">ReactJS<img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
                     <div class="tab ts3">Python <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/></div>
@@ -166,10 +168,14 @@ export class Blurb extends Component {
             <div class="ts4 centered2">Morrison Homes</div>
                 <div class="ts3 tab">As a web application developer, I created, implemented, 
                     and developed a functional interface to integrate with an aging IT landscape. 
-                    These functions included full CRUD operations.
+                    These functions included:
                 </div> 
+                <div class="ts3 tab">• Full read / Write functions via SQL Procedures</div>
+                <div class="ts3 tab">• Auto logon via http context. (Github does not reflect this.)</div>
+                <div class="ts3 tab">• Function for logging</div>
+                <div class="ts3 tab">• Procedure for logging to SQL data table</div>
                 <br/>
-                <div class="centered2"><a class="text-danger" href="https://cute-pika-83ca97.netlify.app"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View the Source Code Here!!</a>   </div>   
+                <div class="centered2"><a class="text-danger" href="https://github.com/AtomDestructo/morrisonhomes/tree/main/oedevelopment/OEWebApplicationApp/OEWebApplicationApp"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View the Source Code Here!!</a>   </div>   
                 <br/>
                 <div >
                     <div class="ts3 tab">• Planning site designs, functionality, and navigation along with datacapture points.</div>
@@ -236,7 +242,8 @@ export class Blurb extends Component {
                 </div>
         </section>
         </div>
-
+        </div>
+        </div>
         </>
         )
     }

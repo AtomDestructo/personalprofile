@@ -2,11 +2,14 @@
 :root{
   --section_height: 40vh;
   --bg2: url(../Media/tttwinkle2.png);
+  --bg3: url(../Media/iconfiregrey.svg);
 
 }
 *{
   font-family: 'Lustria', serif;
   font-size: calc(10px + 2vmin);
+  padding: 3px;
+  margin:0;
 }
 /*=============================alignment======================*/
 .centered2{text-align: center;}
@@ -49,8 +52,7 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
   background: rgb(0,36,20);
-  /*background: linear-gradient(90deg, rgb(19, 17, 26) 0%, rgb(30, 27, 41) 66%, rgba(19, 17, 26) 100%);*/
-  background: linear-gradient(45deg, rgb(29, 29, 29) 0%, rgb(134, 133, 134) 66%, rgb(69, 68, 70) 100%);
+  background: linear-gradient(180deg, rgb(235, 250, 255) 0%, rgb(231, 231, 231) 66%, rgb(241, 241, 241) 100%);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -59,15 +61,16 @@ body{
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
 }
+
 /*============================main title bar===========================*/
 .sticky_title_bar{
   min-height: 100%;
   max-width: 38%;
-  background-color: rgb(30, 27, 41);
+  background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(252, 252, 252) 50%, rgb(248, 245, 228) 100%);
   align-items: center;
   justify-content: left;
   font-size: calc(8px + 2vmin);
-  color: rgb(250, 185, 155);
+  color: rgb(20, 16, 14);
   display: sticky;
   position: fixed;
   right: 0;
@@ -75,11 +78,17 @@ body{
   top: 0;
   padding: 1%;
   margin: 2vh;
+  border-top: 6px solid rgb(27, 27, 27) ;
+  border-right: 6px solid rgb(255, 255, 255) ;
+  border-left: 6px solid rgb(27, 27, 27) ;
+  border-bottom: 6px solid rgb(255, 255, 255) ;
 }
 
 .sticky_title_bar:hover{
-  border-top: 6px solid rgb(93, 81, 139) ;
-  border-right: 6px solid rgb(93, 81, 139) ;
+  border-top: 6px solid rgb(107, 107, 107) ;
+  border-right: 6px solid rgb(255, 255, 255) ;
+  border-left: 6px solid rgb(107, 107, 107) ;
+  border-bottom: 6px solid rgb(255, 255, 255) ;
   background-color: rgb(241, 241, 241);
   transition-timing-function: ease-in-out;
   transition: 1s;
@@ -95,7 +104,10 @@ body{
   font-style: oblique 45deg;
 }
 .sticky_title_bar:hover .ts1{ 
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px red;
+}
+.sticky_title_bar:hover .ts2{ 
+  text-shadow: 1px 2px #0f0f0f;
 }
 
 .sticky_title_bar:hover .ts3{ 
@@ -104,11 +116,12 @@ body{
   font-style: oblique 45deg; 
   color:rgb(30, 27, 41);
   font-style: oblique 45deg;
+  text-shadow: 1px 1px #0f0f0f;
 }
 
 .sticky_title_bar:not(:hover){
   font-size: calc(8px + 2vmin);
-  color: rgb(250, 185, 155);
+  color: rgb(19, 15, 13);
   background-color: rgb(30, 27, 41);
   transition-timing-function: ease-in-out;
   transition: 800ms;
@@ -122,19 +135,19 @@ body{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(161, 190, 207);
+  color: rgb(44, 50, 53);
   margin: 1vh;
   padding: 1%;
   max-width: 58%;
   border-radius: 4px 4px;
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px 4px;
-  transition-duration: 2s;
+  transition-duration: 3s;
   line-height: 1;
   opacity: .25;
   cursor: text;
 }
-.section_center:hover .ts1{ color:#0f0f0f; font-style: oblique 45deg; font-size: 1.75em; text-shadow: 2px 2px 5px red;}
+.section_center:hover .ts1{ color:#0f0f0f; font-style: oblique 65deg; font-size: 1.75em;}
 .section_center:hover b{ color:#0f0f0f; }
 .section_center:hover c{ color:#0f0f0f;}
 .section_center:hover .ts2{ color:#0f0f0f; margin: 2px; font-weight: bold; text-decoration: underline;}
@@ -144,14 +157,15 @@ body{
 .section_center:hover{
   background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(252, 252, 252) 50%, rgb(248, 245, 228) 100%);
   color: rgb(39, 38, 53);
-  border: 4px solid rgb(252, 252, 252) ;
+  border-top: 6px solid rgb(107, 107, 107) ;
+  border-right: 6px solid rgb(255, 255, 255) ;
+  border-left: 6px solid rgb(107, 107, 107) ;
+  border-bottom: 6px solid rgb(255, 255, 255) ;
   line-height: 1.5;
   transition-duration: .5s;
   cursor: text;
   opacity: 100;
-  border-radius: 13px 63px 13px 64px;
-  -webkit-border-radius: 13px 63px 13px 64px;
-  -moz-border-radius: 13px 63px 13px 64px;
+
 }
 .bg3{
   background-image: var(--bg3);
@@ -180,7 +194,7 @@ body{
   -moz-border-radius: 4px 4px;
   font-weight: bolder;
   font-size: 4vw;
-  background: linear-gradient(to right, #fbff00, #ffae00, #ff0008);
+  background: linear-gradient(to right, #6d6e01, #ffae00, #ff0008);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -215,6 +229,14 @@ img{
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
 }
-.star{
+
+.fireImage{
+  background-image: var(--bg3);
+  background-repeat: no-repeat;
+  animation-timing-function: linear;
+  background-size: 30%;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: 1;
 
 }
