@@ -4,6 +4,7 @@ export class Blurb extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+    
     render() {
     return (
         <>
@@ -13,31 +14,27 @@ export class Blurb extends Component {
             <div class="centered2">
             <div class="centered2"><img src="/media/logocolorbackgroung.png" width={"200px"} alt="logocolor" class="m-5"/></div>
                 <div class="ts1">Evan Doucett</div> 
-                <div class="ts2">Web Developer Profile</div> 
+                <div class="ts2"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> Web Developer Profile <img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div> 
                 <div class="ts3">Designer, Frontend Creator / Web Developer / Coder and Consultant</div> 
-                <div class="ts3"><b>Forge</b> to perfection, <b>Amazing</b> software created for you, one keystroke blow at a time.</div> 
+                <div class="ts3"><b>Forged</b> to perfection! <b>Amazing</b> software crafted for you, one keystroke blow at a time.</div> 
                 <hr/>
                     <div class=""><a class="link ts4" href="#ABOUT">About Me</a></div>
-                    <div><a class="link ts4" href="#EDUCATION">Education</a></div>
-                    <div><a class="link ts4" href="#ABILITIES">Abilities</a></div>
-                    <div><a class="link ts4" href="#HOBBIES">Hobbies</a></div>
-                    <div><a class="link ts4" href="#PERSONALITY">Personality</a></div>
+                    <div><a class="link ts4" href="#EDUCATION">Education</a><a class="link ts4" href="#ABILITIES">Abilities</a></div>
+                    <div><a class="link ts4" href="#HOBBIES">Hobbies</a><a class="link ts4" href="#PERSONALITY">Personality</a></div>
                     <div><a class="link ts4" href="#RECENT">Recent Work</a></div>
                 <hr/>
                 <div class="">
                     <div class="ts3 ">Evan Doucett</div>
-                        <div class="ts3">Calgary, Alberta </div>
-                        <div class="link-hover ts3" title="Message Me!!"> Email: edoucett@hotmail.com / evandoucett@theprogramforge.com</div>  
+                        <div class="link-hover ts3" title="Message Me!!"> Email: evandoucett@theprogramforge.com</div>  
                         <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/iconlinkedin.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="linkedin"/>  </a>
-                        <a class="" href="www.linkedin.com/in/evan-doucett" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/>  </a>
+                        <a class="" href="https://github.com/AtomDestructo" ><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/>  </a>
                 </div>
             </div>
 
         </section>
         <div class="fireImage ">
         <div class="welcome ">
-        <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-        Welcome to my developer profile. Please poke around
+        <div class="ts3 centered2"><b>Forged</b> to perfection! <b>Amazing</b> software crafted for you, one keystroke blow at a time!</div> 
         </div>
         <hr class="c"></hr>
         <section class="section_center ">
