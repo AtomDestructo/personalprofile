@@ -36,14 +36,14 @@ export class Blurb extends Component {
             <div class=""><img src="/Media/welcomeblurb.svg" width={"700px"} alt="hrseperatortop" class="m-5"/></div> 
         </div>
         <hr class="c"></hr>
+
         <section class="section_center ">
         <div class="centered2 ts1" id="ABOUT">
-            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             About Me
-            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
         </div>
         <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="twinkle" class="m-5"/></div>
-        <hr/>
             <div class="tab ts3">Hi, I'm <b>Evan</b>. Nice to meet you.
                 Since beginning my journey as a freelance designer, 
                 I've done <b>remote / onsite work</b> for small businesses, <b>consulted</b> for startups business, 
@@ -55,12 +55,11 @@ export class Blurb extends Component {
 
         <section class="section_center centered2">
             <div class="ts1" id="EDUCATION">
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
                 Education
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
                 <div class="ts2">Object Oriented Software Development</div>
                 <div class="ts2">SAIT, Advance School for Digital Technology</div>
                 <div class="ts3">Grade Point Average: <b>3.99</b></div>
@@ -74,12 +73,11 @@ export class Blurb extends Component {
 
         <section class="section_center centered2">
             <div class="centered2 ts1" id="ABILITIES">
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
                 Abilities
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="ts3">
                 No experience:  <img src="/Media/onestars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~
                 Novice: <img src="/Media/twostars.svg" width={"60px"} alt="hrseperatortop" class="m-5"/> ~  
@@ -138,12 +136,11 @@ export class Blurb extends Component {
 
         <section class="section_center">
             <div class="centered2 ts1" id="HOBBIES">
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
                 Hobbies
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
                 <div class="ts3 centered2">Photography and Editing</div>
                 <div class="ts3 centered2">Digital Editing</div>
                 <div class="ts3 centered2">Graphic Design</div>
@@ -152,12 +149,11 @@ export class Blurb extends Component {
                 <div class="ts3 centered2">Wellness practices</div>
                 <div class="ts3 centered2">Reading</div>
             <div class="centered2 ts1" id="PERSONALITY">
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
                 Key Personality Traits
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="centered2">
                 <div class="ts3">Honest</div>
                 <div class="ts3">Imagination and inventive</div>
@@ -176,14 +172,13 @@ export class Blurb extends Component {
 
         <section class="section_center">
             <div class="centered2 ts1" id="RECENT">
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
                 My Recent Work
-                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 bar"/>
             </div>
                 <div class="centered2"><a class="text-danger" href="https://github.com/AtomDestructo/personalprofile/tree/main/personalprofile"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View this profile website here</a>   </div>   
                 <br/>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="ts2 centered2">Web Application Developer</div>
             <div class="ts4 centered2">Morrison Homes</div>
                 <div class="ts3 tab">As a web application developer, I created, implemented, 
@@ -207,7 +202,6 @@ export class Blurb extends Component {
                 </div>
 
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="ts2 centered2">Web Developer/Designer</div>
             <div class="ts4 centered2">Land Works Resource Management Inc.</div>
                 <div class="ts3 tab"> As a web developer it was my responsibility to design, coding, 
@@ -231,7 +225,6 @@ export class Blurb extends Component {
                 </div>
 
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="ts2 centered2">Business Analytics and Process Design Manager</div>
             <div class="ts4 centered2">Caneda Transport Inc.</div>
                 <div class="ts3 tab">As a Business Process Solutions Manager, I was responsible for themanagement of department milestones
@@ -248,7 +241,6 @@ export class Blurb extends Component {
                 </div>
 
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
-            <hr/>
             <div class="ts2 centered2">Controller</div>
             <div class="ts4 centered2">Caneda Transport Inc.</div>
                 <div class="ts3 tab">Oversee activities related to payroll, tax, account payables/ receivables, and customer billing. 

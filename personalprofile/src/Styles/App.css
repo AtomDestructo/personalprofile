@@ -138,7 +138,7 @@ body{
 .section_center:hover c{ color:#0f0f0f;}
 .section_center:hover .ts2{ color:#0f0f0f; margin: 2px; font-weight: bold; text-decoration: underline;}
 .section_center:hover .ts4{ color:#0f0f0f; margin: 2px; font-weight: bold;}
-.section_center:hover .bar{ visibility: visible; height: 0;}
+.section_center:hover .bar{ visibility: visible;}
 .section_center .bar{ visibility: hidden;}
 .section_center:hover{
   background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(252, 252, 252) 50%, rgb(248, 245, 228) 100%);
