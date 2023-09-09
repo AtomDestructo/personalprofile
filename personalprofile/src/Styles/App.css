@@ -42,6 +42,7 @@ h3{ font-family: 'Lustria', serif;}
   -moz-border-radius: 10px 4px;
   color: aqua;
   padding: 4px 10px;
+  margin: 3px;
 }
 /*============================body sections===========================*/
 html{scroll-behavior: smooth;}
@@ -102,21 +103,6 @@ body{
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   font-style: oblique 45deg;
-}
-.sticky_title_bar:hover .ts1{ 
-  text-shadow: 2px 2px red;
-}
-.sticky_title_bar:hover .ts2{ 
-  text-shadow: 1px 2px #0f0f0f;
-}
-
-.sticky_title_bar:hover .ts3{ 
-  font-size: .8em; 
-  font-weight: bolder; 
-  font-style: oblique 45deg; 
-  color:rgb(30, 27, 41);
-  font-style: oblique 45deg;
-  text-shadow: 1px 1px #0f0f0f;
 }
 
 .sticky_title_bar:not(:hover){
@@ -211,7 +197,6 @@ body{
 @media screen and (max-width: 600px){
   body{
     background-image: none;
-    background: rgb(36, 32, 54);
   }
 }
 img{
