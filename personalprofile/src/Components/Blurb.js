@@ -16,7 +16,6 @@ export class Blurb extends Component {
                 <div class="ts1">Evan Doucett</div> 
                 <div class="ts2"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/> Web Developer Profile <img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div> 
                 <div class="ts3">Designer, Frontend Creator / Web Developer / Coder and Consultant</div> 
-                <div class="ts3"><b>Forged</b> to perfection! <b>Amazing</b> software crafted for you, one keystroke blow at a time.</div> 
                 <hr/>
                     <div class=""><a class="link ts4" href="#ABOUT">About Me</a></div>
                     <div><a class="link ts4" href="#EDUCATION">Education</a><a class="link ts4" href="#ABILITIES">Abilities</a></div>
@@ -33,13 +32,17 @@ export class Blurb extends Component {
 
         </section>
         <div class="fireImage ">
-        <div class="welcome ">
-        <div class="ts3 centered2"><b>Forged</b> to perfection! <b>Amazing</b> software crafted for you, one keystroke blow at a time!</div> 
+        <div class="welcome centered2">
+            <div class=""><img src="/Media/welcomeblurb.svg" width={"700px"} alt="hrseperatortop" class="m-5"/></div> 
         </div>
         <hr class="c"></hr>
         <section class="section_center ">
-        <div class="centered2 ts1" id="ABOUT">About Me</div>
-        <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
+        <div class="centered2 ts1" id="ABOUT">
+            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            About Me
+            <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+        </div>
+        <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="twinkle" class="m-5"/></div>
         <hr/>
             <div class="tab ts3">Hi, I'm <b>Evan</b>. Nice to meet you.
                 Since beginning my journey as a freelance designer, 
@@ -51,7 +54,11 @@ export class Blurb extends Component {
         </section>
 
         <section class="section_center centered2">
-            <div class="ts1" id="EDUCATION">Education</div>
+            <div class="ts1" id="EDUCATION">
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                Education
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
                 <div class="ts2">Object Oriented Software Development</div>
@@ -66,7 +73,11 @@ export class Blurb extends Component {
         </section>
 
         <section class="section_center centered2">
-            <div class="centered2 ts1" id="ABILITIES">Abilities</div>
+            <div class="centered2 ts1" id="ABILITIES">
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                Abilities
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="ts3">
@@ -126,7 +137,11 @@ export class Blurb extends Component {
         </section>
 
         <section class="section_center">
-            <div class="centered2 ts1" id="HOBBIES">Hobbies</div>
+            <div class="centered2 ts1" id="HOBBIES">
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                Hobbies
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
                 <div class="ts3 centered2">Photography and Editing</div>
@@ -136,7 +151,11 @@ export class Blurb extends Component {
                 <div class="ts3 centered2">Drawing</div>
                 <div class="ts3 centered2">Wellness practices</div>
                 <div class="ts3 centered2">Reading</div>
-            <div class="centered2 ts1" id="PERSONALITY">Key Personality Traits</div>
+            <div class="centered2 ts1" id="PERSONALITY">
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                Key Personality Traits
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            </div>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
             <hr/>
             <div class="centered2">
@@ -156,7 +175,11 @@ export class Blurb extends Component {
         </section>
 
         <section class="section_center">
-            <div class="centered2 ts1" id="RECENT">My Recent Work</div>
+            <div class="centered2 ts1" id="RECENT">
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+                My Recent Work
+                <img src="/Media/tttwinkle.svg" width={"40px"} alt="twinkle" class="m-5 "/>
+            </div>
                 <div class="centered2"><a class="text-danger" href="https://github.com/AtomDestructo/personalprofile/tree/main/personalprofile"><img src="/Media/github.png" class="img-thumbnail ms-2" width="40em" height="40em" alt="github"/> View this profile website here</a>   </div>   
                 <br/>
             <div class="centered2 bar"><img src="/Media/iconfire.svg" width={"40px"} alt="hrseperatortop" class="m-5"/></div>
